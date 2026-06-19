@@ -1,261 +1,759 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FN Boutique | E-Commerce Retail Partner</title>
-<meta name="description" content="FN Boutique is a France-based online retail company specializing in Home & Kitchen and Pet Supplies across France and Germany.">
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:Arial, Helvetica, sans-serif;
-    line-height:1.6;
-    color:#333;
-}
-
-.container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-}
-
-header{
-    background:#0f172a;
-    color:white;
-    padding:20px 0;
-}
-
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-}
-
-.hero{
-    background:linear-gradient(135deg,#0f172a,#1e293b);
-    color:white;
-    text-align:center;
-    padding:100px 20px;
-}
-
-.hero h1{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:700px;
-    margin:auto;
-    font-size:20px;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:30px;
-    background:#f59e0b;
-    color:white;
-    padding:14px 30px;
-    text-decoration:none;
-    border-radius:6px;
-    font-weight:bold;
-}
-
-section{
-    padding:80px 0;
-}
-
-h2{
-    text-align:center;
-    margin-bottom:40px;
-    color:#0f172a;
-}
-
-.about p{
-    max-width:850px;
-    margin:auto;
-    text-align:center;
-    font-size:18px;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-}
-
-.card{
-    background:#f8fafc;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.08);
-}
-
-.card h3{
-    margin-bottom:15px;
-    color:#0f172a;
-}
-
-.market{
-    background:#f1f5f9;
-}
-
-.market-list{
-    text-align:center;
-    font-size:22px;
-    font-weight:bold;
-}
-
-.partner{
-    background:#0f172a;
-    color:white;
-}
-
-.partner h2{
-    color:white;
-}
-
-.partner ul{
-    max-width:700px;
-    margin:auto;
-    list-style:none;
-}
-
-.partner li{
-    padding:12px 0;
-    border-bottom:1px solid rgba(255,255,255,0.1);
-}
-
-.contact{
-    text-align:center;
-}
-
-.contact p{
-    margin:10px 0;
-    font-size:18px;
-}
-
-footer{
-    background:#111827;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-@media(max-width:768px){
-.hero h1{
-font-size:34px;
-}
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FN Boutique — Premium Online Retail Store. Discover fashion, lifestyle & more with unbeatable prices and fast delivery in France." />
+  <meta name="theme-color" content="#C8102E" />
+  <title>FN Boutique — Premium Online Store</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23C8102E'/><text x='50%' y='62%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='serif' font-weight='900' font-size='18'>FN</text></svg>" />
 </head>
-
 <body>
 
-<header>
-<div class="container">
-<nav>
-<div class="logo">FN Boutique</div>
-</nav>
+<!-- =================== TOP BAR =================== -->
+<div class="top-bar">
+  🎉 Free delivery on orders over €50 · Use code <strong>FNWELCOME</strong> for 10% off your first order
+  <a href="#">Shop Now →</a>
 </div>
+
+<!-- =================== HEADER =================== -->
+<header>
+  <div class="container header-inner">
+
+    <!-- Logo -->
+    <a href="index.html" class="logo" aria-label="FN Boutique Home">
+      <span class="logo-fn">FN</span>
+      <span class="logo-boutique">Boutique</span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav aria-label="Main navigation">
+      <a href="#" class="active">Home</a>
+      <div class="nav-dropdown">
+        <a href="#">Women ▾</a>
+        <div class="dropdown-menu">
+          <a href="#">Clothing</a>
+          <a href="#">Dresses</a>
+          <a href="#">Tops & Blouses</a>
+          <a href="#">Trousers & Jeans</a>
+          <a href="#">Shoes & Bags</a>
+          <a href="#">Accessories</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="#">Men ▾</a>
+        <div class="dropdown-menu">
+          <a href="#">Shirts & Polos</a>
+          <a href="#">Trousers & Shorts</a>
+          <a href="#">Shoes & Sneakers</a>
+          <a href="#">Jackets & Coats</a>
+          <a href="#">Accessories</a>
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="#">Home & Living ▾</a>
+        <div class="dropdown-menu">
+          <a href="#">Decoration</a>
+          <a href="#">Kitchenware</a>
+          <a href="#">Bedding & Bath</a>
+          <a href="#">Storage & Organisation</a>
+        </div>
+      </div>
+      <a href="#">Sale 🔥</a>
+      <a href="#">About</a>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <a href="#" class="icon-btn" aria-label="Search">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </a>
+      <a href="#" class="icon-btn" aria-label="Wishlist">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+      </a>
+      <button id="cartToggle" class="icon-btn" aria-label="Shopping cart" style="position:relative">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="badge">0</span>
+      </button>
+      <a href="#" class="btn btn-red" style="font-size:12px;padding:10px 18px;">Sign In</a>
+      <button id="hamburger" class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+  </div>
 </header>
 
-<section class="hero">
-<div class="container">
-<h1>Your Trusted E-Commerce Partner</h1>
-<p>
-FN Boutique is a France-based online retail company specializing in Home & Kitchen and Pet Supplies products across France and Germany.
-</p>
-<a href="#contact" class="btn">Contact Us</a>
+<!-- =================== MOBILE NAV =================== -->
+<div id="mobileNav" class="mobile-nav" role="dialog" aria-label="Mobile navigation">
+  <div class="mobile-nav-header">
+    <a href="index.html" class="logo"><span class="logo-fn">FN</span><span class="logo-boutique">Boutique</span></a>
+    <button id="mobileNavClose" aria-label="Close menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <div class="mobile-nav-links">
+    <a href="#">Home</a>
+    <a href="#">Women</a>
+    <a href="#">Men</a>
+    <a href="#">Home & Living</a>
+    <a href="#">Sale 🔥</a>
+    <a href="#">About</a>
+    <a href="#" style="margin-top:16px;color:var(--red);font-weight:600;">Sign In / Register</a>
+  </div>
 </div>
+
+<!-- =================== HERO =================== -->
+<section class="hero" aria-label="Featured promotions">
+  <div class="hero-slides">
+
+    <!-- Slide 1 -->
+    <div class="hero-slide active">
+      <div class="hero-slide-bg slide-bg-1">
+        <!-- SVG decorative pattern -->
+        <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.06" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><circle cx="30" cy="30" r="1.5" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/></svg>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag">New Season Arrivals</span>
+          <h1 class="hero-title">Dress to <em>Impress</em><br>Every Day</h1>
+          <p class="hero-sub">Discover our curated collection of premium fashion, home essentials, and lifestyle products — delivered fast across France.</p>
+          <div class="hero-cta">
+            <a href="#" class="btn btn-red">Shop Collection</a>
+            <a href="#" class="btn btn-outline-white">Explore Sale</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide">
+      <div class="hero-slide-bg slide-bg-2">
+        <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.08" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="dots2" width="40" height="40" patternUnits="userSpaceOnUse"><rect x="18" y="18" width="4" height="4" rx="1" fill="white"/></pattern></defs><rect width="100%" height="100%" fill="url(#dots2)"/></svg>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag">Men's Essentials</span>
+          <h1 class="hero-title">Built for the<br><em>Modern Man</em></h1>
+          <p class="hero-sub">Premium shirts, tailored trousers, quality footwear — everything you need to look and feel your best.</p>
+          <div class="hero-cta">
+            <a href="#" class="btn btn-red">Shop Men's</a>
+            <a href="#" class="btn btn-outline-white">View Lookbook</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="hero-slide">
+      <div class="hero-slide-bg slide-bg-3">
+        <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.08" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="tri" width="50" height="50" patternUnits="userSpaceOnUse"><polygon points="25,5 45,40 5,40" fill="none" stroke="white" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(#tri)"/></svg>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-tag" style="background:var(--green)">Summer Sale — Up to 50% Off</span>
+          <h1 class="hero-title">Big Summer<br>Clearance Sale</h1>
+          <p class="hero-sub">Hundreds of items reduced across women's, men's, and home categories. Limited time — don't miss out!</p>
+          <div class="hero-cta">
+            <a href="#" class="btn btn-outline-white">See All Deals</a>
+            <a href="#" class="btn btn-green">Women's Sale</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Slider Controls -->
+  <div class="hero-controls">
+    <button class="hero-dot active" aria-label="Slide 1"></button>
+    <button class="hero-dot" aria-label="Slide 2"></button>
+    <button class="hero-dot" aria-label="Slide 3"></button>
+  </div>
+  <div class="hero-nav">
+    <button class="hero-arrow" id="heroPrev" aria-label="Previous slide">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18"><path d="m15 18-6-6 6-6"/></svg>
+    </button>
+    <button class="hero-arrow" id="heroNext" aria-label="Next slide">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="18" height="18"><path d="m9 18 6-6-6-6"/></svg>
+    </button>
+  </div>
 </section>
 
-<section class="about">
-<div class="container">
-<h2>About FN Boutique</h2>
-<p>
-FN Boutique partners with distributors, wholesalers, and manufacturers to bring quality products to customers through leading online marketplaces. We focus on building long-term business relationships, maintaining operational excellence, and delivering sustainable growth for our partners.
-</p>
-</div>
+<!-- =================== TRUST BAR =================== -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-inner">
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Free Delivery</strong>
+          <span>On orders over €50</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Easy Returns</strong>
+          <span>30-day hassle-free returns</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Secure Payment</strong>
+          <span>100% safe & encrypted</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Premium Quality</strong>
+          <span>Curated & quality-assured</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section>
-<div class="container">
-<h2>Our Product Categories</h2>
+<!-- =================== CATEGORIES =================== -->
+<section class="section-pad">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-header-left">
+        <span class="section-label">Browse by Category</span>
+        <h2 class="section-title">Shop What You Love</h2>
+      </div>
+      <a href="#" class="view-all">All categories <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="categories-grid">
 
-<div class="grid">
+      <div class="category-card wide">
+        <div class="cat-bg cat-bg-1" style="width:100%;height:100%;"></div>
+        <span class="cat-deco">👗</span>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-label">New Season</div>
+          <div class="cat-name">Women's Fashion</div>
+          <a href="#" class="cat-link">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
 
-<div class="card">
-<h3>Home & Kitchen</h3>
-<p>
-A curated selection of products designed to improve everyday living, organization, comfort, and home functionality.
-</p>
-</div>
+      <div class="category-card">
+        <div class="cat-bg cat-bg-2" style="width:100%;height:100%;"></div>
+        <span class="cat-deco">👔</span>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-label">Essentials</div>
+          <div class="cat-name">Men's Wear</div>
+          <a href="#" class="cat-link">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
 
-<div class="card">
-<h3>Pet Supplies</h3>
-<p>
-Quality pet products focused on comfort, feeding, grooming, and the wellbeing of pets and their owners.
-</p>
-</div>
+      <div class="category-card">
+        <div class="cat-bg cat-bg-3" style="width:100%;height:100%;"></div>
+        <span class="cat-deco">🏠</span>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-label">Interiors</div>
+          <div class="cat-name">Home & Living</div>
+          <a href="#" class="cat-link">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
 
-</div>
-</div>
+      <div class="category-card">
+        <div class="cat-bg cat-bg-4" style="width:100%;height:100%;"></div>
+        <span class="cat-deco">👟</span>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-label">Step Up</div>
+          <div class="cat-name">Footwear</div>
+          <a href="#" class="cat-link">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="cat-bg cat-bg-5" style="width:100%;height:100%;"></div>
+        <span class="cat-deco">💼</span>
+        <div class="cat-overlay"></div>
+        <div class="cat-info">
+          <div class="cat-label">Complete the Look</div>
+          <div class="cat-name">Bags & Accessories</div>
+          <a href="#" class="cat-link">Shop Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="14" height="14"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
 
-<section class="market">
-<div class="container">
-<h2>Markets We Serve</h2>
-<div class="market-list">
-🇫🇷 France &nbsp;&nbsp;|&nbsp;&nbsp; 🇩🇪 Germany
-</div>
-</div>
+<!-- =================== NEW ARRIVALS =================== -->
+<section class="section-pad-sm" style="background:var(--grey-light)">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-header-left">
+        <span class="section-label">Just Dropped</span>
+        <h2 class="section-title">New Arrivals</h2>
+        <p class="section-sub">Hand-picked products added this week — fresh styles and quality essentials.</p>
+      </div>
+      <a href="#" class="view-all">View All <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+
+    <div class="products-filters">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Women</button>
+      <button class="filter-btn">Men</button>
+      <button class="filter-btn">Home</button>
+      <button class="filter-btn">Accessories</button>
+      <button class="filter-btn">Sale</button>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Product 1 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">👗</div>
+          <div class="product-badges"><span class="badge-label badge-new">New</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Women's Fashion</div>
+          <a href="#" class="product-name">Floral Wrap Summer Dress</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            <span class="reviews">(48)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€34.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">👔</div>
+          <div class="product-badges"><span class="badge-label badge-sale">−30%</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Men's Essentials</div>
+          <a href="#" class="product-name">Oxford Slim-Fit Formal Shirt</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star" style="color:#ddd">★</span>
+            <span class="reviews">(32)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€27.99</span>
+            <span class="price-was">€39.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">🕯️</div>
+          <div class="product-badges"><span class="badge-label badge-hot">Bestseller</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Home & Living</div>
+          <a href="#" class="product-name">Luxury Scented Candle Set — 3pc</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            <span class="reviews">(91)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€22.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">👟</div>
+          <div class="product-badges"><span class="badge-label badge-new">New</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Footwear</div>
+          <a href="#" class="product-name">Classic White Sneakers — Unisex</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            <span class="reviews">(64)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€54.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 5 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">👜</div>
+          <div class="product-badges"><span class="badge-label badge-sale">−20%</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Accessories</div>
+          <a href="#" class="product-name">Structured Leather Tote Bag</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star" style="color:#ddd">★</span>
+            <span class="reviews">(27)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€47.99</span>
+            <span class="price-was">€59.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 6 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">🧴</div>
+          <div class="product-badges"><span class="badge-label badge-hot">Top Rated</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Beauty & Care</div>
+          <a href="#" class="product-name">Organic Moisturising Body Kit</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            <span class="reviews">(113)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€18.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 7 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">🧥</div>
+          <div class="product-badges"><span class="badge-label badge-new">New</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Men's Outerwear</div>
+          <a href="#" class="product-name">Premium Wool Blend Overcoat</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            <span class="reviews">(19)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€89.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+      <!-- Product 8 -->
+      <article class="product-card">
+        <div class="product-img-wrap">
+          <div class="product-placeholder">🌿</div>
+          <div class="product-badges"><span class="badge-label badge-sale">−40%</span></div>
+          <div class="product-actions">
+            <a href="#" class="action-btn" title="Add to Wishlist"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></a>
+            <a href="#" class="action-btn" title="Quick View"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></a>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-brand">Home & Living</div>
+          <a href="#" class="product-name">Botanical Ceramic Planter Set</a>
+          <div class="stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star" style="color:#ddd">★</span>
+            <span class="reviews">(44)</span>
+          </div>
+          <div class="product-price">
+            <span class="price-now">€16.99</span>
+            <span class="price-was">€27.99</span>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
 </section>
 
-<section class="partner">
-<div class="container">
-<h2>Supplier Partnerships</h2>
-
-<ul>
-<li>✓ Manufacturer Partnerships</li>
-<li>✓ Brand Representation</li>
-<li>✓ Authorized Distribution</li>
-<li>✓ Marketplace Expertise</li>
-<li>✓ Long-Term Business Relationships</li>
-<li>✓ Reliable Inventory Management</li>
-</ul>
-
-</div>
+<!-- =================== PROMO COUNTDOWN BANNER =================== -->
+<section class="promo-banner">
+  <div class="container">
+    <div class="promo-inner">
+      <div class="promo-text">
+        <div class="promo-eyebrow">Limited Time Offer</div>
+        <h2 class="promo-headline">Summer Flash Sale<br>Up to 50% Off</h2>
+        <p class="promo-sub">Hundreds of styles reduced. Shop women's, men's, and home across all categories before the offer ends.</p>
+        <div class="countdown" aria-label="Countdown timer">
+          <div class="count-item"><span class="count-num" id="cd-days">02</span><span class="count-label">Days</span></div>
+          <div class="count-item"><span class="count-num" id="cd-hours">14</span><span class="count-label">Hours</span></div>
+          <div class="count-item"><span class="count-num" id="cd-mins">37</span><span class="count-label">Mins</span></div>
+          <div class="count-item"><span class="count-num" id="cd-secs">22</span><span class="count-label">Secs</span></div>
+        </div>
+      </div>
+      <div class="promo-cta">
+        <a href="#" class="btn btn-outline-white" style="font-size:14px;padding:16px 36px;">Shop the Sale</a>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="contact" class="contact">
-<div class="container">
-<h2>Contact Us</h2>
-
-<p><strong>FN Boutique</strong></p>
-
-<p>France</p>
-
-<p>Email: contact@fnboutique.fr</p>
-
-<p>Business Partnerships & Distribution Inquiries Welcome</p>
-
-</div>
+<!-- =================== SPLIT BANNERS =================== -->
+<section class="section-pad">
+  <div class="container">
+    <div class="split-banners">
+      <div class="split-banner split-bg-green">
+        <span class="split-deco">👗</span>
+        <div class="split-content">
+          <div class="split-eyebrow">Women's Edit</div>
+          <div class="split-title">New Dress<br>Collection</div>
+          <div class="split-sub">Effortless summer silhouettes,<br>fresh prints, and timeless cuts.</div>
+          <a href="#" class="btn btn-outline-white">Explore Now</a>
+        </div>
+      </div>
+      <div class="split-banner split-bg-black">
+        <span class="split-deco">👔</span>
+        <div class="split-content">
+          <div class="split-eyebrow">Men's Collection</div>
+          <div class="split-title">Smart Casual<br>Done Right</div>
+          <div class="split-sub">Elevated everyday dressing for<br>the modern professional.</div>
+          <a href="#" class="btn btn-red">Shop Men's</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- =================== BRANDS =================== -->
+<section class="brands-strip">
+  <div class="container">
+    <div class="brands-inner">
+      <span class="brand-logo">ZARA</span>
+      <span class="brand-logo">H&M</span>
+      <span class="brand-logo">MANGO</span>
+      <span class="brand-logo">LACOSTE</span>
+      <span class="brand-logo">NIKE</span>
+      <span class="brand-logo">ADIDAS</span>
+      <span class="brand-logo">LEVI'S</span>
+      <span class="brand-logo">TOMMY</span>
+      <span class="brand-logo">IKEA</span>
+    </div>
+  </div>
+</section>
+
+<!-- =================== TESTIMONIALS =================== -->
+<section class="section-pad testimonials-bg">
+  <div class="container">
+    <span class="section-label section-label-white">Customer Reviews</span>
+    <h2 class="section-title section-title-white">What Our Customers Say</h2>
+    <p class="section-sub section-sub-white">Thousands of satisfied shoppers across France trust FN Boutique for quality and value.</p>
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card">
+        <div class="t-stars"><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span></div>
+        <p class="t-quote">Absolutely love the quality of everything I've ordered. The dress arrived in two days and the packaging was beautiful. Will definitely order again!</p>
+        <div class="t-author">
+          <div class="t-avatar t-av-1">S</div>
+          <div><div class="t-name">Sophie M.</div><div class="t-location">Paris, France</div></div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-stars"><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span></div>
+        <p class="t-quote">Great prices and very fast delivery. The men's shirts are exactly as described — premium quality at an amazing price point. My go-to shop now.</p>
+        <div class="t-author">
+          <div class="t-avatar t-av-2">K</div>
+          <div><div class="t-name">Karim B.</div><div class="t-location">Lyon, France</div></div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="t-stars"><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span><span class="t-star">★</span></div>
+        <p class="t-quote">The home decor section is incredible. Ordered the candle set and planters — they look even better in person. Customer service was also super helpful!</p>
+        <div class="t-author">
+          <div class="t-avatar t-av-3">A</div>
+          <div><div class="t-name">Amélie D.</div><div class="t-location">Bordeaux, France</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =================== NEWSLETTER =================== -->
+<section class="section-pad newsletter-section">
+  <div class="container">
+    <div class="newsletter-inner">
+      <div class="newsletter-text">
+        <h2 class="newsletter-title">Get Exclusive Deals<br>& New Arrivals</h2>
+        <p class="newsletter-sub">Join 12,000+ subscribers and be the first to hear about sales, new products, and special offers.</p>
+      </div>
+      <div class="newsletter-form">
+        <form id="newsletterForm" novalidate>
+          <div class="newsletter-input-wrap">
+            <input type="email" class="newsletter-input" placeholder="Enter your email address" aria-label="Email address" required />
+            <button type="submit" class="newsletter-submit">Subscribe</button>
+          </div>
+        </form>
+        <p class="newsletter-note">No spam, ever. Unsubscribe anytime. By subscribing you agree to our Privacy Policy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== FOOTER =================== -->
 <footer>
-<p>© 2026 FN Boutique. All Rights Reserved.</p>
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="logo-fn">FN</span><span class="logo-boutique" style="color:rgba(255,255,255,0.9)">Boutique</span></a>
+        <p class="footer-desc">Your premier destination for fashion, home living, and lifestyle products — curated with care and delivered fast across France.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter / X">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M4 20L20 4"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="TikTok">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Shop Links -->
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul class="footer-links">
+          <li><a href="#">Women's Fashion</a></li>
+          <li><a href="#">Men's Fashion</a></li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Footwear</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Sale & Offers</a></li>
+        </ul>
+      </div>
+
+      <!-- Help Links -->
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul class="footer-links">
+          <li><a href="#">My Account</a></li>
+          <li><a href="#">Track My Order</a></li>
+          <li><a href="#">Returns & Refunds</a></li>
+          <li><a href="#">Delivery Information</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-col footer-contact">
+        <h4>Contact</h4>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          France
+        </p>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.4 2 2 0 0 1 3.6 2.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.1 6.1l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          contact@fnboutique.fr
+        </p>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Mon–Fri, 9h–18h
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>© 2025 FN Boutique. All rights reserved. · <a href="#">CGV</a> · <a href="#">Mentions Légales</a> · <a href="#">RGPD</a> · <a href="#">Politique de confidentialité</a></p>
+      <div class="footer-pay">
+        <span class="pay-chip">VISA</span>
+        <span class="pay-chip">MC</span>
+        <span class="pay-chip">PAYPAL</span>
+        <span class="pay-chip">CB</span>
+        <span class="pay-chip">AMEX</span>
+      </div>
+    </div>
+  </div>
 </footer>
 
+<!-- =================== CART DRAWER =================== -->
+<div id="cartOverlay" class="cart-overlay" role="dialog" aria-label="Shopping Cart">
+  <div class="cart-drawer">
+    <div class="cart-header">
+      <span class="cart-title">Your Cart</span>
+      <button id="cartClose" class="cart-close" aria-label="Close cart">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="20" height="20"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="cart-body">
+      <div class="cart-empty">
+        <div class="cart-empty-icon">🛍️</div>
+        <p>Your cart is empty.<br>Start shopping to add items!</p>
+        <br>
+        <a href="#" class="btn btn-red" style="margin-top:16px" onclick="document.getElementById('cartOverlay').classList.remove('open')">Browse Products</a>
+      </div>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total</span><span>€0.00</span></div>
+      <a href="#" class="btn btn-red" style="display:block;text-align:center;width:100%;justify-content:center;">Proceed to Checkout</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
